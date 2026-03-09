@@ -185,9 +185,9 @@ ORDER BY shift_date DESC, utilization_pct ASC;
 
 | Metric | Baseline | Post-Launch | Change |
 |---|---|---|---|
-| Bottleneck Rate | 18.4% | 14.7% | **-20.1% ✅** |
-| SLA Compliance | 94.2% | 98.1% | **+3.9pp ✅** |
-| Avg. Alert Lead Time | N/A | 112 min | **>90 min target ✅** |
+| Bottleneck Rate | 18.4% | 14.7% | **-20.1% ** |
+| SLA Compliance | 94.2% | 98.1% | **+3.9pp ** |
+| Avg. Alert Lead Time | N/A | 112 min | **>90 min target** |
 | Staffing Utilization | 71% | 88% | **+17pp** |
 | Unmet Orders (peak hr) | 340/day | 198/day | **-41.8%** |
 
