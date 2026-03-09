@@ -1,11 +1,11 @@
-# 📦 Marketplace Dynamics: Demand Forecasting Product
+# Marketplace Dynamics: Demand Forecasting Product
 
 > **Product Area:** Marketplace Logistics · **Role:** Product Manager · **Timeline:** Jan 2025  
 > **Impact:** 20% reduction in service bottlenecks · 98% SLA compliance maintained
 
 ---
 
-## 🧭 Overview
+## Overview
 
 Marketplace platforms face a fundamental supply-demand synchronization problem: **customer order volume is unpredictable, but shopper availability must be pre-allocated.** Without foresight, this mismatch creates bottlenecks — long wait times, unmet orders, and SLA breaches.
 
@@ -13,7 +13,7 @@ This project documents the end-to-end product work to scope, design, and ship a 
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 | Symptom | Root Cause | Business Impact |
 |---|---|---|
@@ -25,7 +25,7 @@ This project documents the end-to-end product work to scope, design, and ship a 
 
 ---
 
-## 🏗️ Product Scope & Strategy
+## Product Scope & Strategy
 
 ### North Star Metric
 **Bottleneck Rate** — % of 30-min windows where order volume exceeds shopper capacity by >15%
@@ -56,7 +56,7 @@ This project documents the end-to-end product work to scope, design, and ship a 
 
 ---
 
-## 📐 PRD Highlights
+## PRD Highlights
 
 ### User Stories
 
@@ -74,7 +74,7 @@ This project documents the end-to-end product work to scope, design, and ship a 
 
 ---
 
-## 🗃️ Data Model & KPI Design
+## Data Model & KPI Design
 
 ### Core KPIs Defined
 
@@ -144,7 +144,7 @@ ORDER BY shift_date DESC, utilization_pct ASC;
 
 ---
 
-## 📊 Metrics Framework
+## Metrics Framework
 
 ```
                       NORTH STAR
@@ -164,7 +164,7 @@ ORDER BY shift_date DESC, utilization_pct ASC;
 
 ---
 
-## 🔁 Go-to-Market & Rollout
+## Go-to-Market & Rollout
 
 ### Phased Launch Plan
 
@@ -181,7 +181,7 @@ ORDER BY shift_date DESC, utilization_pct ASC;
 
 ---
 
-## 📉 Results (Post-Launch)
+## Results (Post-Launch)
 
 | Metric | Baseline | Post-Launch | Change |
 |---|---|---|---|
@@ -193,7 +193,7 @@ ORDER BY shift_date DESC, utilization_pct ASC;
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Tool |
 |---|---|
@@ -206,7 +206,7 @@ ORDER BY shift_date DESC, utilization_pct ASC;
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 demand-forecasting-product/
@@ -229,7 +229,7 @@ demand-forecasting-product/
 
 ---
 
-## 💡 Key PM Learnings
+## Key PM Learnings
 
 1. **ML ≠ Product.** The model was only 30% of the work. Translating confidence intervals into human-readable staffing recommendations was the hardest PM challenge.
 
@@ -239,7 +239,7 @@ demand-forecasting-product/
 
 ---
 
-## 🤝 Contributing / Contact
+## Contributing / Contact
 
 This is a portfolio project demonstrating PM skills in:
 - Marketplace logistics & supply/demand systems
@@ -247,6 +247,3 @@ This is a portfolio project demonstrating PM skills in:
 - ML product integration (translating model outputs to user tools)
 - Cross-functional stakeholder alignment
 
----
-
-*Built to demonstrate product management depth for marketplace and logistics roles.*
